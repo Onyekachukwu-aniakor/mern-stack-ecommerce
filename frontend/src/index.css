@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+};
+
+
+::-webkit-scrollbar{
+   display: none; 
+   overflow-y: hidden
+   
+};
+
+
+
+
+
+
+/* @media (max-width: 640px) {
+  a.active{
+    background-color: #000;
+    color :#fff;
+  }
+  
+} */
