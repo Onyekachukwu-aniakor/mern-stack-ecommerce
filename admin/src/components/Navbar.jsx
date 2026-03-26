@@ -1,5 +1,4 @@
 import React from 'react'
-import {assets} from '../assets/assets'
 
 
 //destructure 'setToken' from app.jsx, used to activate Logout button below
