@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    font-family: Outfit;
-};
 
-select, textarea, input{
-    border: 1px solid #c2c2c2;
-    outline-color: #c586a5;
-}
 
 @tailwind base;
 @tailwind components;
