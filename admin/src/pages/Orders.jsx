@@ -40,7 +40,7 @@ const Orders = ({token}) => {
       }
     } catch (error) {
       console.log(error)
-      toast.error(response.data.message)
+      toast.error(error.message)
     }
     
   };
@@ -48,7 +48,7 @@ const Orders = ({token}) => {
   useEffect(()=>{
     fetchAllOrders();
 
-  },[token]);
+  },[token, fetchAllOrders]);
   return (
     <div>
       <h3 className=''>Order Page</h3>
